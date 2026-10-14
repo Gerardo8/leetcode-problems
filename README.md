@@ -52,6 +52,59 @@ names (`MedianFinder`, `MajorityChecker`).
 
 ---
 
+## Learning workflow and progress tracker
+
+This project is not just a dump of solved code: it is a small interview-practice system. The key is
+that the repository teaches patterns, not only answers.
+
+### Recommended workflow for each problem
+
+1. Read the statement and identify the invariant.
+2. Write a brute-force idea before optimising.
+3. Solve with the right pattern (two pointers, sliding window, greedy, binary search, DFS/BFS, etc.).
+4. Check edge cases, constraints and complexity.
+5. Explain the idea out loud without reading the code.
+6. Mark the problem in `study-progress.csv` as `not_started`, `practicing`, `reviewed`, or `mastered`.
+
+### Progress tracker
+
+The file `study-progress.csv` is the review-and-mastery index for the repo. It is intentionally simple:
+
+```csv
+number,title,status,pattern
+88,Merge Sorted Array,not_started,two pointers
+1480,Running Sum of 1d Array,not_started,prefix sum
+...
+```
+
+Update that file as you study. The terminal app reads it and prints your next priority problems.
+
+### Pattern quick reference
+
+- Two pointers: sorted arrays, in-place mutation, opposite-end traversal.
+- Sliding window: subarray or substring constraints.
+- Hash map / set: frequency counting, grouping and lookup by canonical representation.
+- Greedy: interval scheduling and local choices with a global proof.
+- Binary search: sorted or monotonic answer space.
+- Divide & conquer: recursive decomposition that can be merged.
+- BFS / DFS: graph and grid traversal with visited states.
+- Dynamic programming: overlapping subproblems and a transition rule.
+- Backtracking: combinatorial search with pruning and restoration.
+
+### Why this helps interviews
+
+Interview performance is about recall and communication, not just code correctness. A well-structured
+practice loop makes it easier to separate:
+
+- problems you can solve from memory,
+- problems you can solve with hints,
+- problems where you still need to re-derive the idea,
+- problems you can explain well enough to teach someone else.
+
+That distinction is what turns a LeetCode repository into a real job-interview preparation system.
+
+---
+
 ## Project structure
 
 ```text
