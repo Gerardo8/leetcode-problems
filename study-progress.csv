@@ -1,0 +1,40 @@
+number,title,status,pattern
+88,Merge Sorted Array,not_started,two pointers
+1480,Running Sum of 1d Array,not_started,prefix sum
+189,Rotate Array,not_started,in-place reversal
+541,Reverse String II,not_started,two pointers
+2911,Minimum Changes to Make K Semi-palindromes,not_started,partition dp
+2514,Count Anagrams,not_started,modular arithmetic
+3485,Longest Common Prefix of K Strings After Removal,not_started,sorting and prefix
+295,Find Median from Data Stream,not_started,two heaps
+167,Two Sum II - Input Array Is Sorted,not_started,two pointers
+80,Remove Duplicates from Sorted Array II,not_started,read/write pointers
+283,Move Zeroes,not_started,read/write pointers
+42,Trapping Rain Water,not_started,two pointers
+188,Best Time to Buy and Sell Stock IV,not_started,state machine dp
+53,Maximum Subarray,not_started,kadane
+76,Minimum Window Substring,not_started,sliding window
+30,Substring with Concatenation of All Words,not_started,hash counts
+48,Rotate Image,not_started,transpose and reverse
+885,Spiral Matrix III,not_started,spiral simulation
+1020,Number of Enclaves,not_started,bfs
+200,Number of Islands,not_started,graph traversal
+18,4Sum,not_started,sorting and two pointers
+49,Group Anagrams,not_started,hash map
+202,Happy Number,not_started,hash set
+128,Longest Consecutive Sequence,not_started,hash set
+45,Jump Game II,not_started,greedy
+134,Gas Station,not_started,greedy
+57,Insert Interval,not_started,interval sweep
+435,Non-overlapping Intervals,not_started,interval scheduling
+704,Binary Search,not_started,binary search
+81,Search in Rotated Sorted Array II,not_started,modified binary search
+912,Sort an Array,not_started,merge sort
+1157,Online Majority Element In Subarray,not_started,segment tree
+2472,Maximum Number of Non-overlapping Palindrome Substrings,not_started,greedy interval scheduling
+238,Product of Array Except Self,not_started,prefix suffix products
+212,Word Search II,not_started,trie and backtracking
+68,Text Justification,not_started,greedy packing
+15,3Sum,not_started,sorting and two pointers
+37,Sudoku Solver,not_started,backtracking
+174,Dungeon Game,not_started,reverse dp
